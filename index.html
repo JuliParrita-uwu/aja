@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intervalos :)</title>
+	<link rel="stylesheet" type="text/css" href="jua.css">
+</head>
+<body onmousemove="eje(event)">
+	<div class="tii" onclick="ti()"></div>
+	<div class="cua" id="cu" onclick="cuaa()"><center>Boton 1</center></div>
+	<div class="cua2" id="cu2" onclick="cuaa2()"><center>Boton 2</center></div>
+	<div class="cua3" id="giga"></div>
+	<div class="c" id="fua"></div>
+	<img src="neo.png" class="im" id="imgg">
+
+	<script>
+	function eje(event)
+	{
+		x=event.clientX;
+		y=event.clientY;
+		giga.innerHTML="x= "+x+" , y="+y;
+	}
+	function ti(){
+		imgg.style.width=300+"px";
+		giga.innerHTML=" ";
+		fua.innerHTML=" ";
+		setTimeout(timme,2000);
+	}
+	function timme(){
+		imgg.style.width=0+"px";
+	}
+	function cuaa2(){
+		fua.style.width=300+"px";
+	}
+	x=0;
+	function contar()
+	{
+		x=x+1;
+		fua.innerHTML="Cronometro: "+x;
+		console.log(x);
+		if(x==10)
+		{
+			clearInterval(crono);
+			fua.innerHTML="Termine :(";
+			fua.style.background="#F6CED8";
+		}
+		if (x%2==0) {
+			fua.style.background="#A9E2F3";
+		}
+		else{
+			fua.style.background="#E2A9F3";
+		}
+	}
+	crono=setInterval(contar,1000);
+	</script>
+
+</body>
+</html>

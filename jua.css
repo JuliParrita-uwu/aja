@@ -1,0 +1,62 @@
+body{
+	background-image: url(aaa.jpg);
+	background-size: cover;
+}
+.tii{
+	position: absolute;
+	background-image: url(ti.png);
+	top: 10px;
+	left: 600px;
+	width: 612px;
+	height: 110px;
+}
+.cua{
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	width: 300px;
+	height: 110px;
+	background: #F5D0A9;
+	font-size: 70px;
+	font-family: Comic Sans MS;
+	box-shadow: 10px 10px 15px #819FF7;
+}
+.cua2{
+	position: absolute;
+	top: 550px;
+	left: 200px;
+	width: 300px;
+	height: 110px;
+	background: #F5D0A9;
+	font-size: 70px;
+	font-family: Comic Sans MS;
+	box-shadow: 10px 10px 15px #819FF7;
+}
+.cua3{
+	position: absolute;
+	top: 300px;
+	left: 600px;
+	width: 900px;
+	height: 360px;
+	background: #F5D0A9;
+	font-size: 70px;
+	font-family: Comic Sans MS;
+	box-shadow: 10px 10px 15px #819FF7;
+}
+.im{
+	position: absolute;
+	width: 0px;
+	height: 300px;
+	top: 330px;
+	left: 900px;
+}
+.c{
+	position: absolute;
+	top: 400px;
+	left: 900px;
+	width: 0px;
+	height: 100px;
+	background: #E2A9F3;
+	color: white;
+	font-size: 50px;
+}
